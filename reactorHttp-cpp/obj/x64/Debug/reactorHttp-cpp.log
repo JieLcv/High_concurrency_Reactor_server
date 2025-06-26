@@ -1,0 +1,66 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.60.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  buffer.cpp
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(66,19): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(66,19): warning :   int size = strlen(data);
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(66,19): warning :              ~~~~~~^~~~~~
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(87,20): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(87,20): warning :   int result = readv(fd, vec, 2);
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(87,20): warning :                ~~~~~^~~~~~~~~~~~
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(121,19): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(121,19): warning :    int count = send(socket, m_data + m_readPos, (size_t)readable, 0);
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\buffer.cpp(121,19): warning :                ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  channel.cpp
+  dispatcher.cpp
+  epollDispatcher.cpp
+  eventLoop.cpp
+  httpRequest.cpp
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(46,21): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(46,21): warning :   int lineSize = end - start;
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(46,21): warning :                  ~~~~^~~~~~~
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(70,22): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(70,22): warning :    int lineSize = end - start;
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(70,22): warning :                   ~~~~^~~~~~~
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(75,24): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(75,24): warning :     int keyLen = middle - start;
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(75,24): warning :                  ~~~~~~~^~~~~~~
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(76,32): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(76,32): warning :     int valueLen = end - middle - 2;
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(76,32): warning :                    ~~~~~~~~~~~~~^~~
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(216,41): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(216,41): warning :     str.append(1, hexToDec(from[1]) * 16 + hexToDec(from[2]));
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(216,41): warning :                   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(286,13): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(286,13): warning :    len = read(fd, buf, sizeof(buf));
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(286,13): warning :          ~~~~^~~~~~~~~~~~~~~~~~~~~~
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(385,21): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(385,21): warning :   int length = space - start;
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\httpRequest.cpp(385,21): warning :                ~~~~~~^~~~~~~
+  httpResponse.cpp
+  main.cpp
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\main.cpp(21,46): warning : conversion to ‘short unsigned int’ from ‘unsigned int’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\main.cpp(21,46): warning :      TcpServer* server = new TcpServer(port, 4);
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\main.cpp(21,46): warning :                                               ^
+  pollDispatcher.cpp
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\pollDispatcher.cpp(25,67): warning : suggest braces around empty body in an ‘if’ statement [-Wempty-body]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\pollDispatcher.cpp(25,2): warning : this ‘if’ clause does not guard... [-Wmisleading-indentation]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\pollDispatcher.cpp(26,2): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\pollDispatcher.cpp(26,2): message :   {
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\pollDispatcher.cpp(26,2): message :   ^
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\pollDispatcher.cpp(40,22): warning : conversion to ‘short int’ from ‘int’ may alter its value [-Wconversion]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\pollDispatcher.cpp(40,22): warning :     m_fds[i].events = events;
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\pollDispatcher.cpp(40,22): warning :                       ^~~~~~
+  selectDispatcher.cpp
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\selectDispatcher.cpp(42,1): warning : no return statement in function returning non-void [-Wreturn-type]
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\selectDispatcher.cpp(42,1): warning :  }
+F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\selectDispatcher.cpp(42,1): warning :  ^
+  tcpConnection.cpp
+  tcpServer.cpp
+  threadPool.cpp
+  workThread.cpp
+  正在链接对象
+  reactorHttp-cpp.vcxproj -> F:\Cpp\program_reactor_antimaster\reactor\reactorHttp-cpp\reactorHttp-cpp\bin\x64\Debug\reactorHttp-cpp.out
